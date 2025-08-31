@@ -41,15 +41,26 @@
       margin-top: 0;
     }
 
-    .contacts a, .github-link {
+    .projects, .contacts {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .projects h2, .contacts h2 {
+      margin-bottom: 10px;
+      font-size: 1.1em;
+      color: #ff6b6b;
+    }
+
+    .projects a, .contacts a, .github-link {
       display: block;
-      margin-top: 10px;
+      margin-top: 8px;
       color: #f1faee;
       text-decoration: none;
       transition: color 0.3s;
     }
 
-    .contacts a:hover, .github-link:hover {
+    .projects a:hover, .contacts a:hover, .github-link:hover {
       color: #ff6b6b;
     }
   </style>
@@ -61,11 +72,17 @@
     <p>1С Программист</p>
     <p>Делать надо хорошо, плохо само получится.</p>
 
+    <div class="projects">
+      <h2>Проекты</h2>
+      <a href="https://github.com/bestuzheff/OnEvents" target="_blank">OnEvents</a>
+      <a href="https://t.me/s_bestuzhev">Серёгины заметки</a>
+    </div>
+
     <div class="contacts">
-        <a href="mailto:s.n.bestuzhev@yandex.ru">e-mail</a>
-        <a href="https://t.me/bestuzheff">telegram</a>
-        <a class="github-link" href="https://github.com/bestuzheff" target="_blank">github</a>
-        <a href="https://t.me/s_bestuzhev">Серёгины заметки</a>
+      <h2>Контакты</h2>
+      <a href="mailto:sergej@bestuzheff.com">e-mail</a>
+      <a href="https://t.me/bestuzheff">telegram</a>
+      <a class="github-link" href="https://github.com/bestuzheff" target="_blank">github</a>
     </div>
   </div>
 </body>
